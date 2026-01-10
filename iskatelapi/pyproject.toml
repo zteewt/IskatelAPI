@@ -1,0 +1,5 @@
+[tool.pytest.ini_options]
+DJANGO_SETTINGS_MODULE = "iskatelapi.settings"
+addopts = "-v --tb=short --ds=iskatelapi.settings"
+python_files = "test_*.py"
+testpaths = ["."]
