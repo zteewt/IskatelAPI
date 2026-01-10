@@ -12,7 +12,7 @@ Backend-приложение на Django для работы с географи
 
 # Возможности
 - CRUD для Points
-- Сообщения к точкам (global/point messages)
+- Сообщения к точкам (api/points, api/messages)
 - Поиск по радиусу (Points search / Messages search)
 - Аутентификация и права доступа
 
@@ -20,11 +20,11 @@ Backend-приложение на Django для работы с географи
 
 ## 1) Клонирование и venv
 ```bash
-git clone <repo_url>
-cd <repo>
+git clone https://github.com/zteewt/IskatelAPI.git
+cd /IskatelAPI
 python -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r /iskatelapi/requirements.txt
 ```
 
 ## 2) Основные эндпоинты
