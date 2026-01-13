@@ -134,6 +134,7 @@ curl "$BASE_URL/api/points/messages/search/?latitude=43.613&longitude=42.735&rad
 
 ## Тесты (все)
 ```bash
-pytest -v
+pytest -v ./api/tests/
+pytest -v ./accounts/tests/ 
 ```
-При возможности, можно запустить разные тесты, они разложены по файлам и папкам /test_...
+При возможности, можно запустить отдельные тестовые файлы, они разложены по папкам с префиском "test_..."
