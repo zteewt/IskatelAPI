@@ -21,10 +21,10 @@ Backend-приложение на Django для работы с географи
 ## 1) Клонирование и venv
 ```bash
 git clone https://github.com/zteewt/IskatelAPI.git
-cd /IskatelAPI
+cd ./IskatelAPI
 python -m venv .venv
 source .venv/bin/activate
-pip install -r /iskatelapi/requirements.txt
+pip install -r ./iskatelapi/requirements.txt
 ```
 
 ## 2) Основные эндпоинты
