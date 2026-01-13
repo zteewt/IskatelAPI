@@ -117,12 +117,7 @@ curl -X POST "$BASE_URL/api/points/messages/" \
     "point": 1
   }'
 ```
-## Получить сообщения конкретной точки
 
-```bash
-curl "$BASE_URL/api/points/1/messages/" \
-  -b cookies.txt
-```
 ## Поиск точек по радиусу (radius в км)
 
 ```bash
@@ -135,3 +130,10 @@ curl "$BASE_URL/api/points/search/?latitude=43.613&longitude=42.735&radius=2" \
 curl "$BASE_URL/api/points/messages/search/?latitude=43.613&longitude=42.735&radius=2" \
   -b cookies.txt
 ```
+
+
+## Тесты (все)
+```bash
+pytest -v
+```
+При возможности, можно запустить разные тесты, они разложены по файлам и папкам /test_...
